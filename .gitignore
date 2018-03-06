@@ -1,0 +1,35 @@
+#App Rails local
+myrailsapp
+
+.DS_Store
+# Ignore all the .idea folder
+.idea/*
+.idea/*.*
+
+# IntelliJ
+/out/
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv
+.env
+
+# virtualenv
+.venv/
+venv/
+ENV/
+
+# Spyder project settings
+.spyderproject
+
+# Rope project settings
+.ropeproject
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+*.logs
+*.log
